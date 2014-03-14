@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quiz</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Questao 1</string>
+    <string name="pergunta1">Completar cada percurso sem desrespeitar as leis de transito, sem abusar do veículo, senco cauteloso e responsável, é uma atitude do motorista que pratica a direcao</string>
+    <string name="opt1">agressiva</string>
+    <string name="opt2">defensiva</string>
+    <string name="opt3">ostensiva</string>
+    <string name="opt4">punitiva</string>
+    <!-- defensiva -->
+    <string name="conf">Confirma</string>
+    <string name="title_activity_segunda">SegundaActivity</string>
+    <string name="quest2">Questão 2</string>
+    <string name="pergunta2">Quando o condutor dirige em velocidade superior à maxima permitida para o local, demonstra</string>
+    <string name="opt1Act2">habilidade</string>
+    <string name="opt2Act2">previsibilidade</string>
+    <string name="opt3Act2">imprudencia</string>
+    <string name="opt4Act2">coerencia</string>
+    <!-- imprudencia -->
+    <string name="confAct2">Confirma</string>
+    <string name="title_activity_terceira">TerceiraActivity</string>
+    <string name="quest3">Questão 3</string>
+    <string name="pergunta3">se uma vitima de acidente pedir agua para beber, deve-se</string>
+    <string name="opt1Act3">recusar seu pedido</string>
+    <string name="opt2Act3">dar um copo no maximo</string>
+    <string name="opt3Act3">mante-la com leite e liquidos adocicados</string>
+    <string name="opt4Act3">deixar tomar o que quiser</string>
+    <!-- recusar seu pedido -->
+    <string name="confAct3">Confirma</string>
+    <string name="title_activity_quarta">QuartaActivity</string>
+    <string name="quest4">Questão 4</string>
+    <string name="pergunta4">Para o condutor, que cometer uma infracao gravissima, serao computados os seguintes pontos:</string>
+    <string name="opt1Act4">sete</string>
+    <string name="opt2Act4">seis</string>
+    <string name="opt3Act4">quatro</string>
+    <string name="opt4Act4">cinco</string>
+    <!-- sete -->
+    <string name="confAct4">Confirma</string>
+    <string name="title_activity_resultado">ResultadoActivity</string>
+
+</resources>
