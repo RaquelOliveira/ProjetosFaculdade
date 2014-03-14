@@ -58,4 +58,13 @@
         android:layout_marginBottom="69dp"
         android:text="@string/conf" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="28dp"
+        android:text="@string/pergunta1" />
+
 </RelativeLayout>

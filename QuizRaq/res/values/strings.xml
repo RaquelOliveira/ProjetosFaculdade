@@ -39,5 +39,6 @@
     <!-- sete -->
     <string name="confAct4">Confirma</string>
     <string name="title_activity_resultado">ResultadoActivity</string>
+    <string name="resultado"></string>
 
 </resources>
