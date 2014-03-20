@@ -24,7 +24,9 @@ public class SegundaActivity extends Activity {
 			Intent intent= new Intent(SegundaActivity.this, TerceiraActivity.class);
 			int radioSelect= ((RadioGroup) findViewById(R.id.radioGroup2)).getCheckedRadioButtonId();
 			if(radioSelect==R.id.radio3Act2){
+				cont++;
 				respotaCerta().show();
+				
 			}else{
 				respostaErrada().show();
 			}
@@ -54,12 +56,22 @@ public class SegundaActivity extends Activity {
 		
 		return toast;
 	}
+	
+//	public Toast teste(){
+//		Context context= getApplicationContext();
+//		CharSequence text= Integer.toString(cont);
+//		int duration= Toast.LENGTH_SHORT;
+//		
+//		Toast toast= Toast.makeText(context, text, duration);
+//		
+//		return toast;
+//	}
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_segunda);
-		cont= this.getIntent().getIntExtra("pontuacao", 0);
+		cont= this.getIntent().getIntExtra("pontuacao", cont);
 		
 		button= (Button) findViewById(R.id.button2);
 		button.setOnClickListener(onclick);

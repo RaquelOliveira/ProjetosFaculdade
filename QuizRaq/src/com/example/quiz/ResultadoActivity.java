@@ -1,9 +1,12 @@
 package com.example.quiz;
 
-import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
 import android.view.Menu;
-import android.view.TextureView;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class ResultadoActivity extends Activity {
@@ -11,15 +14,29 @@ public class ResultadoActivity extends Activity {
 	private TextView textResult;
 	private String resp;
 	int result;
+	private Button button;
+	public OnClickListener onClick= new OnClickListener() {
+		
+		@Override
+		public void onClick(View v) {
+			// TODO Auto-generated method stub
+			Intent intent= new Intent(ResultadoActivity.this,MainActivity.class);
+			startActivity(intent);
+			
+		}
+	};
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_resultado);
-		result= this.getIntent().getIntExtra("pontuacao", 0);
+		result= this.getIntent().getIntExtra("pontuacao", result);
 		resp= "Fim de jogo! Sua Pontuacao e "+ Integer.toString(result);
 		textResult= (TextView) findViewById(R.id.textResult);
 		textResult.setText(resp);
+		
+		button=(Button) findViewById(R.id.buttonJogNov);
+		button.setOnClickListener(onClick);
 	}
 
 	@Override

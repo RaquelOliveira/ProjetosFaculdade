@@ -39,7 +39,7 @@
             android:id="@+id/radio1Act3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:checked="false"
+            android:checked="true"
             android:text="@string/opt1Act3" />
 
         <RadioButton

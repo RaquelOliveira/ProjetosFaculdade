@@ -38,6 +38,10 @@
             android:name="com.example.quiz.ResultadoActivity"
             android:label="@string/title_activity_resultado" >
         </activity>
+        <activity
+            android:name="com.example.quiz.QuintaActivity"
+            android:label="@string/title_activity_quinta" >
+        </activity>
     </application>
 
 </manifest>

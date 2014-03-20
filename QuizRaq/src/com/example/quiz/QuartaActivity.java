@@ -21,9 +21,8 @@ public class QuartaActivity extends Activity {
 		@Override
 		public void onClick(View arg0) {
 			// TODO Auto-generated method stub
-			Intent intent= new Intent(QuartaActivity.this,ResultadoActivity.class);
+			Intent intent= new Intent(QuartaActivity.this,QuintaActivity.class);
 			int radioSelect= ((RadioGroup)findViewById(R.id.radioGroup4)).getCheckedRadioButtonId();
-			
 			if(radioSelect==R.id.radio1Act4){
 				respostaCorreta().show();
 				cont++;
@@ -53,12 +52,22 @@ public class QuartaActivity extends Activity {
 		Toast toast= Toast.makeText(context, text, duration);
 		return toast;
 	}
+	
+//	public Toast teste(){
+//		Context context= getApplicationContext();
+//		CharSequence text= Integer.toString(cont);
+//		int duration= Toast.LENGTH_SHORT;
+//		
+//		Toast toast= Toast.makeText(context, text, duration);
+//		
+//		return toast;
+//	}
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_quarta);
-		cont= this.getIntent().getIntExtra("pontuacao", 0);
+		cont= this.getIntent().getIntExtra("pontuacao", cont);
 		
 		button= (Button) findViewById(R.id.button4);
 		button.setOnClickListener(onclick);

@@ -38,7 +38,18 @@
     <string name="opt4Act4">cinco</string>
     <!-- sete -->
     <string name="confAct4">Confirma</string>
+    <string name="title_activity_quinta">QuintaActivity</string>
+    <string name="quest5">Questão 5</string>
+    <string name="pergunta5">A circulação nos passeios públicos é…</string>
+    <string name="opt1Act5">Proibida</string>
+    <string name="opt2Act5">Permitida sempre</string>
+    <string name="opt3Act5">permitida, desde que o passeio tenha mais de 5 metros de largura</string>
+    <string name="opt4Act5">permitida, desde que devidamente sinalizada pelo orgão com cincunscrição sobre a vida</string>
+    <!-- sete -->
+    <string name="confAct5">Confirma</string>
     <string name="title_activity_resultado">ResultadoActivity</string>
     <string name="resultado"></string>
-
+    <string name="jogaNovamente">jogar novamente</string>
+    <string name="sair">sair</string>
+    
 </resources>

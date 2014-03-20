@@ -24,49 +24,58 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f08001c;
+        public static final int action_settings=0x7f080023;
         public static final int button1=0x7f080006;
-        public static final int button2=0x7f080015;
-        public static final int button3=0x7f08001b;
+        public static final int button2=0x7f08001c;
+        public static final int button3=0x7f080022;
         public static final int button4=0x7f080008;
-        public static final int pergunta2=0x7f08000f;
+        public static final int button5=0x7f080010;
+        public static final int buttonJogNov=0x7f080015;
+        public static final int pergunta2=0x7f080016;
         public static final int radio1=0x7f080002;
-        public static final int radio1Act2=0x7f080011;
-        public static final int radio1Act3=0x7f080017;
+        public static final int radio1Act2=0x7f080018;
+        public static final int radio1Act3=0x7f08001e;
         public static final int radio1Act4=0x7f08000a;
+        public static final int radio1Act5=0x7f080011;
         public static final int radio2=0x7f080003;
-        public static final int radio2Act2=0x7f080012;
-        public static final int radio2Act3=0x7f080018;
+        public static final int radio2Act2=0x7f080019;
+        public static final int radio2Act3=0x7f08001f;
         public static final int radio2Act4=0x7f08000b;
+        public static final int radio2Act5=0x7f080012;
         public static final int radio3=0x7f080004;
-        public static final int radio3Act2=0x7f080013;
-        public static final int radio3Act3=0x7f080019;
+        public static final int radio3Act2=0x7f08001a;
+        public static final int radio3Act3=0x7f080020;
         public static final int radio3Act4=0x7f08000c;
         public static final int radio4=0x7f080005;
-        public static final int radio4Act2=0x7f080014;
-        public static final int radio4Act3=0x7f08001a;
+        public static final int radio4Act2=0x7f08001b;
+        public static final int radio4Act3=0x7f080021;
         public static final int radio4Act4=0x7f08000d;
+        public static final int radioCerto=0x7f080013;
         public static final int radioGroup1=0x7f080001;
-        public static final int radioGroup2=0x7f080010;
-        public static final int radioGroup3=0x7f080016;
+        public static final int radioGroup2=0x7f080017;
+        public static final int radioGroup3=0x7f08001d;
         public static final int radioGroup4=0x7f080009;
-        public static final int textResult=0x7f08000e;
+        public static final int radioGroup5=0x7f08000f;
+        public static final int textResult=0x7f080014;
         public static final int textView1=0x7f080000;
         public static final int textView2=0x7f080007;
+        public static final int textView5=0x7f08000e;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int activity_quarta=0x7f030001;
-        public static final int activity_resultado=0x7f030002;
-        public static final int activity_segunda=0x7f030003;
-        public static final int activity_terceira=0x7f030004;
+        public static final int activity_quinta=0x7f030002;
+        public static final int activity_resultado=0x7f030003;
+        public static final int activity_segunda=0x7f030004;
+        public static final int activity_terceira=0x7f030005;
     }
     public static final class menu {
         public static final int main=0x7f070000;
         public static final int quarta=0x7f070001;
-        public static final int resultado=0x7f070002;
-        public static final int segunda=0x7f070003;
-        public static final int terceira=0x7f070004;
+        public static final int quinta=0x7f070002;
+        public static final int resultado=0x7f070003;
+        public static final int segunda=0x7f070004;
+        public static final int terceira=0x7f070005;
     }
     public static final class string {
         public static final int action_settings=0x7f050001;
@@ -83,33 +92,45 @@ public final class R {
         /**  sete 
          */
         public static final int confAct4=0x7f050020;
+        /**  sete 
+         */
+        public static final int confAct5=0x7f050028;
         public static final int hello_world=0x7f050002;
+        public static final int jogaNovamente=0x7f05002b;
         public static final int opt1=0x7f050004;
         public static final int opt1Act2=0x7f05000c;
         public static final int opt1Act3=0x7f050014;
         public static final int opt1Act4=0x7f05001c;
+        public static final int opt1Act5=0x7f050024;
         public static final int opt2=0x7f050005;
         public static final int opt2Act2=0x7f05000d;
         public static final int opt2Act3=0x7f050015;
         public static final int opt2Act4=0x7f05001d;
+        public static final int opt2Act5=0x7f050025;
         public static final int opt3=0x7f050006;
         public static final int opt3Act2=0x7f05000e;
         public static final int opt3Act3=0x7f050016;
         public static final int opt3Act4=0x7f05001e;
+        public static final int opt3Act5=0x7f050026;
         public static final int opt4=0x7f050007;
         public static final int opt4Act2=0x7f05000f;
         public static final int opt4Act3=0x7f050017;
         public static final int opt4Act4=0x7f05001f;
+        public static final int opt4Act5=0x7f050027;
         public static final int pergunta1=0x7f050003;
         public static final int pergunta2=0x7f05000b;
         public static final int pergunta3=0x7f050013;
         public static final int pergunta4=0x7f05001b;
+        public static final int pergunta5=0x7f050023;
         public static final int quest2=0x7f05000a;
         public static final int quest3=0x7f050012;
         public static final int quest4=0x7f05001a;
-        public static final int resultado=0x7f050022;
+        public static final int quest5=0x7f050022;
+        public static final int resultado=0x7f05002a;
+        public static final int sair=0x7f05002c;
         public static final int title_activity_quarta=0x7f050019;
-        public static final int title_activity_resultado=0x7f050021;
+        public static final int title_activity_quinta=0x7f050021;
+        public static final int title_activity_resultado=0x7f050029;
         public static final int title_activity_segunda=0x7f050009;
         public static final int title_activity_terceira=0x7f050011;
     }

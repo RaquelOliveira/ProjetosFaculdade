@@ -52,12 +52,15 @@ public class TerceiraActivity extends Activity {
 		
 		return toast;
 	}
+	
+	
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_terceira);
-		cont= this.getIntent().getIntExtra("potuacao", 0);
+		cont= this.getIntent().getIntExtra("pontuacao", cont);
+	
 		
 		button= (Button) findViewById(R.id.button3);
 		button.setOnClickListener(onclick);
