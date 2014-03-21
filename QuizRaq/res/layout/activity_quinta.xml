@@ -63,8 +63,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="66dp"
-        android:layout_toRightOf="@+id/radioGroup1"
+        android:layout_marginBottom="69dp"
+        android:layout_toRightOf="@+id/textView2"
         android:text="@string/confAct5" />
 
 </RelativeLayout>

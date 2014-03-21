@@ -15,15 +15,6 @@
         android:layout_alignParentTop="true"
         android:text="@string/quest4" />
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/radioGroup4"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
-        android:text="@string/confAct4" />
-
     <RadioGroup
         android:id="@+id/radioGroup4"
         android:layout_width="wrap_content"
@@ -65,5 +56,14 @@
         android:layout_alignLeft="@+id/textView1"
         android:layout_below="@+id/textView1"
         android:text="@string/pergunta4" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="68dp"
+        android:text="@string/confAct4" />
 
 </RelativeLayout>

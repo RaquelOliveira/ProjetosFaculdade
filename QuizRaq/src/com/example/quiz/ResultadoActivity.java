@@ -25,6 +25,20 @@ public class ResultadoActivity extends Activity {
 			
 		}
 	};
+	
+     private Button buttonSair;
+	public OnClickListener onclickSair= new OnClickListener() {
+		
+		@Override
+		public void onClick(View v) {
+		
+			// TODO Auto-generated method stub
+			Intent intents = new Intent(Intent.ACTION_MAIN);
+			intents.addCategory(Intent.CATEGORY_HOME);
+			intents.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+			startActivity(intents);	
+		}
+	};
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +51,9 @@ public class ResultadoActivity extends Activity {
 		
 		button=(Button) findViewById(R.id.buttonJogNov);
 		button.setOnClickListener(onClick);
+		
+		buttonSair= (Button) findViewById(R.id.buttonSair);
+		buttonSair.setOnClickListener(onclickSair);
 	}
 
 	@Override
